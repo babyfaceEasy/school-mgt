@@ -1,0 +1,5 @@
+https://blog.pusher.com/docker-for-development-laravel-php/
+
+//tutorials - laravel multi tenancy 
+https://medium.com/@ashokgelal/a-full-featured-multi-tenant-app-with-laravel-part-1-4049a3cc229d
+Fix for above link : https://github.com/ashokgelal/townhouse/pull/17/files/d56d7b1c8805833eb201afade2c09fa7d07dda69

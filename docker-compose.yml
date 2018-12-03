@@ -1,0 +1,20 @@
+version: '2'
+services:
+  web:
+    build: .
+    ports:
+      - 8000:80
+    volumes: 
+      - ./src:/var/www/
+    env_file:
+      - ./.env
+    container_name: schoolmgt
+    networks:
+      - servers_external_network
+      - schoolmgt_network
+    tty: true
+networks:
+  servers_external_network:
+    external: true
+  schoolmgt_network:
+
