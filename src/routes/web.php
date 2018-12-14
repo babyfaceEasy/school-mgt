@@ -12,6 +12,7 @@
 */
 
 Route::get('/', function () {
+    return env('DB_CONNECTION');
     return view('welcome');
 });
 
